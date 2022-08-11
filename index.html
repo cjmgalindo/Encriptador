@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="contenedorPrincipal">
+        <img src="./img/Vector.svg" alt="logo" id="logo">
+
+        <div class="contenedorEntrada">
+            <!-- <input autofocus id="input" type="text" placeholder="Ingrese el texto aqui" > -->
+            <textarea type="text" name="inputArea" id="input" placeholder="Ingrese el texto aqui" maxlength="500" autofocus></textarea>
+
+            <div>
+                <div id="indicacion">
+                    <img src="./img/interrogacion.svg" alt="signo de interrogacion" >
+                    <span>Solo letras minúsculas y sin acentos</span>
+                </div>
+                <div id="botones">
+                    <button id="encriptar">Encriptar</button>
+                    <button id="desencriptar">Desencriptar</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="contenedorMensaje">
+
+            <div id="message">
+                <img src="./img/Muñeco.svg" alt="una persona buscando">
+                <p id="primerParrafo">Ningún mensaje fue encontrado</p>
+                <p id="segundoParrafo">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+
+        </div>
+
+    </div>
+    <footer>
+        <p>hecho con 🤍 por <a href="https://www.linkedin.com/in/cjmgalindo/" target="_blank">@cjmgalindo</a></p>
+    </footer>
+    <script src="./main.js" ></script>
+</body>
+</html>
+
+
+
+
+
+
+
